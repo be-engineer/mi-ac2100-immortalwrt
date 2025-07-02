@@ -3,7 +3,7 @@
  # @Author       : Leon Lee
  # @Date         : 2025-07-02 09:19:54
  # @LastEditors  : Leon
- # @LastEditTime : 2025-07-02 09:37:39
+ # @LastEditTime : 2025-07-02 09:57:42
  # @Description  : file content
  # @FilePath     : /mi-ac2100-immortalwrt/diy-part1.sh
 ### 
@@ -29,4 +29,4 @@
 
 # 添加 daed 插件（如需自定义操作可在此处添加）
 # 示例：拉取 luci-app-daed 到 package 目录（如有需要可取消注释）
-git clone https://github.com/sbwml/luci-app-daed.git package/luci-app-daed
+git clone https://github.com/QiuSimons/luci-app-daed.git package/luci-app-daed
