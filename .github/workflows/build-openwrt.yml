@@ -23,6 +23,11 @@ env:
   UPLOAD_WETRANSFER: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
+  # daed插件相关内容请在 feeds.conf.default、diy-part1.sh、mi-ac2100.config 分别增加
+  # 1. feeds.conf.default 增加 daed 源，例如:
+  #    src-git daed https://github.com/xxx/daed-openwrt.git
+  # 2. diy-part1.sh 增加拉取/添加 daed 插件的命令（如有需要）
+  # 3. mi-ac2100.config 增加 CONFIG_PACKAGE_daed=y
 
 on:
   repository_dispatch:
